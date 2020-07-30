@@ -4,6 +4,10 @@ We try to follow [http://keepachangelog.com/](http://keepachangelog.com/) recomm
 ## [Unreleased]
 _(add items here for easier creation of next log entry)_
 
+## [1.9.1] - 2020-07-31
+### Fixed
+- No more uses of React deprecated lifecycles
+
 ## [1.8.0] - 2018-02-04
 ### Added
 - `props.isItemSelectable` which allows rendering items that will not function as selectable items, but instead as static information/decoration elements such as headers (thanks to @rssteffey with help from @rmcauley) (#241)

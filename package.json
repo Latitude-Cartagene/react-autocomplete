@@ -1,6 +1,6 @@
 {
-  "name": "@flash1293/react-autocomplete",
-  "version": "1.8.0-react16fix",
+  "name": "@latitude-cartagene/react-autocomplete",
+  "version": "1.9.1",
   "description": "Accessible, extensible, Autocomplete for React.js",
   "main": "./build/lib/Autocomplete.js",
   "files": [
@@ -8,12 +8,12 @@
     "build/lib/Autocomplete.js",
     "dist"
   ],
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/reactjs/react-autocomplete.git"
+  "repository": "git://github.com/Latitude-Cartagene/react-autocomplete.git",
+  "homepage": "https://github.com/Latitude-Cartagene/react-autocomplete",
+  "bugs": "https://github.com/Latitude-Cartagene/react-autocomplete/issues",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/Latitude-Cartagene"
   },
-  "homepage": "https://github.com/reactjs/react-autocomplete",
-  "bugs": "https://github.com/reactjs/react-autocomplete/issues",
   "directories": {
     "example": "examples"
   },
@@ -44,7 +44,7 @@
     "babel-preset-stage-0": "^6.5.0",
     "babelify": "^7.3.0",
     "browserify": "^13.3.0",
-    "browserify-hmr": "^0.3.5",
+    "browserify-hmr": "^0.4.1",
     "enzyme": "^2.8.2",
     "enzyme-to-json": "^1.5.1",
     "eslint": "^2.13.1",
