@@ -1,6 +1,6 @@
 {
   "name": "@latitude-cartagene/react-autocomplete",
-  "version": "1.9.6",
+  "version": "1.9.7",
   "description": "Accessible, extensible, Autocomplete for React.js",
   "main": "./build/lib/Autocomplete.js",
   "files": [
